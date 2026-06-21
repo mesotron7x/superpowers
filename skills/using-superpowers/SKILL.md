@@ -1,7 +1,11 @@
 ---
 name: using-superpowers
-description: Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions
+description: Manual-only entry point. Use only when the user explicitly invokes this skill to opt into Superpowers workflow guidance for the current conversation.
 ---
+
+<CODEX-MANUAL-ONLY>
+In the Codex manual-only distribution, follow this skill only when the user explicitly invokes it. Do not treat normal conversation startup as an instruction to activate Superpowers.
+</CODEX-MANUAL-ONLY>
 
 <SUBAGENT-STOP>
 If you were dispatched as a subagent to execute a specific task, skip this skill.
