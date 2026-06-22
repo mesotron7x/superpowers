@@ -25,6 +25,8 @@ Next up, once you say "go", it launches a *subagent-driven-development* process,
 
 There's a bunch more to it, but that's the core of the system. And because the skills trigger automatically, you don't need to do anything special. Your coding agent just has Superpowers.
 
+The Codex Composer `mt` branch is the exception: it is manual-trigger only and does not auto-inject the Superpowers bootstrap.
+
 ## Commercial Services
 
 If you're using Superpowers in enterprise and could benefit from commercial support, additional tooling, or managed spending, please don't hesitate to drop us a line at sales@primeradiant.com.
@@ -79,6 +81,19 @@ Superpowers is available via the [official Codex plugin marketplace](https://git
 - In the Codex app, click on Plugins in the sidebar.
 - You should see `Superpowers` in the Coding section.
 - Click the `+` next to Superpowers and follow the prompts.
+
+#### Codex Composer MT branch
+
+The `mt` branch is manual-trigger only for Codex Composer. It does not register
+a Codex session-start hook, so Superpowers does not inject the
+`using-superpowers` bootstrap into new sessions. Bundled skills also use
+manual-only metadata: Composer should activate them only when you explicitly
+name/select a skill, such as `use brainstorming`, `use the brainstorming skill`,
+or `superpowers:brainstorming`.
+
+This is intentionally different from the default upstream Superpowers
+experience, where the bootstrap is injected automatically and skills may trigger
+from context.
 
 ### Codex CLI
 

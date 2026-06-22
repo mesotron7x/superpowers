@@ -1,6 +1,6 @@
 ---
 name: subagent-driven-development
-description: Use when executing implementation plans with independent tasks in the current session
+description: "Manual trigger only. Invoke this skill only when the user explicitly names this skill."
 ---
 
 # Subagent-Driven Development

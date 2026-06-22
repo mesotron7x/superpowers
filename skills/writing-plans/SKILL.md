@@ -1,6 +1,6 @@
 ---
 name: writing-plans
-description: Use when you have a spec or requirements for a multi-step task, before touching code
+description: "Manual trigger only. Invoke this skill only when the user explicitly names this skill."
 ---
 
 # Writing Plans

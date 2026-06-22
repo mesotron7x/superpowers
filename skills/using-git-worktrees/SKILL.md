@@ -1,6 +1,6 @@
 ---
 name: using-git-worktrees
-description: Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback
+description: "Manual trigger only. Invoke this skill only when the user explicitly names this skill."
 ---
 
 # Using Git Worktrees

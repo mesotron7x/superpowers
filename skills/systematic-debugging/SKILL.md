@@ -1,6 +1,6 @@
 ---
 name: systematic-debugging
-description: Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes
+description: "Manual trigger only. Invoke this skill only when the user explicitly names this skill."
 ---
 
 # Systematic Debugging

@@ -1,6 +1,6 @@
 ---
 name: using-superpowers
-description: Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions
+description: "Manual trigger only. Invoke this skill only when the user explicitly names this skill."
 ---
 
 <SUBAGENT-STOP>

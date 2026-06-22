@@ -1,6 +1,6 @@
 ---
 name: writing-skills
-description: Use when creating new skills, editing existing skills, or verifying skills work before deployment
+description: "Manual trigger only. Invoke this skill only when the user explicitly names this skill."
 ---
 
 # Writing Skills

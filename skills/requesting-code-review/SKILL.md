@@ -1,6 +1,6 @@
 ---
 name: requesting-code-review
-description: Use when completing tasks, implementing major features, or before merging to verify work meets requirements
+description: "Manual trigger only. Invoke this skill only when the user explicitly names this skill."
 ---
 
 # Requesting Code Review

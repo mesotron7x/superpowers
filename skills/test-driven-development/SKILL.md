@@ -1,6 +1,6 @@
 ---
 name: test-driven-development
-description: Use when implementing any feature or bugfix, before writing implementation code
+description: "Manual trigger only. Invoke this skill only when the user explicitly names this skill."
 ---
 
 # Test-Driven Development (TDD)
