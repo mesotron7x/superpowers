@@ -11,7 +11,7 @@
       "description": "Manual-only planning, TDD, debugging, and delivery workflows for Codex.",
       "source": {
         "source": "local",
-        "path": "./"
+        "path": "./plugins/superpowers-manual"
       },
       "policy": {
         "installation": "AVAILABLE",
